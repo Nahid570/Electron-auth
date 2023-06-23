@@ -1,34 +1,48 @@
-# auth
+<div align="center">
+<img src="https://i.ibb.co/sHX8BYb/Screenshot-from-2023-06-23-22-39-55.png" width="300">
+  <br />
+  <img src="https://i.ibb.co/f1s9BHK/Screenshot-from-2023-06-23-22-39-35.png" width="300">
+  <br />
+  <img src="https://i.ibb.co/mGf806L/Screenshot-from-2023-06-23-22-40-15.png" width="300">
+  <br />
+  <img src="https://i.ibb.co/M7R2byD/Screenshot-from-2023-06-23-22-40-39.png" width="300">
+  <br />
+  <img src="https://i.ibb.co/JW16r9Y/Screenshot-from-2023-06-23-22-38-45.png" width="300">
+  <br />
+  <img src="https://i.ibb.co/6PSgGZP/Screenshot-from-2023-06-23-22-37-52.png" width="300">
+  <br />
+  <h1>Electron Auth App</h1>
+  <br />
+</div>
 
-An Electron application with React
+> This is a simple Electron.js Auth + CRUD (Create, Read, Update, Delete) application.
 
-## Recommended IDE Setup
+## Prerequisites
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+Before you begin, ensure you have the following installed on your machine:
 
-## Project Setup
+- Node.js (version 14 or above)
+- Yarn (https://yarnpkg.com)
 
-### Install
+## Getting Started
 
-```bash
-$ yarn
-```
+1. Clone the repository to your local machine:
 
-### Development
+````bash
+git clone `https://github.com/Nahid570/Electron-auth.git`
 
-```bash
+### Setup
+
+Install dependencies
+
+```shell
+$ cd Electron-auth && yarn
+````
+
+### Running
+
+After building the application, you can run it using the following command:
+
+```shell
 $ yarn dev
-```
-
-### Build
-
-```bash
-# For windows
-$ yarn build:win
-
-# For macOS
-$ yarn build:mac
-
-# For Linux
-$ yarn build:linux
 ```
