@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Electron Auth</title>
+    <!-- Modified the meta for api request -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; connect-src 'self' https://electron-auth-server.vercel.app; script-src 'self'; style-src 'self' 'unsafe-inline'"
+    />
+    <!-- Modified the meta for api request -->
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "An Electron application with React",
+  "main": "./out/main/index.js",
+  "author": "nahid",
+  "homepage": "https://www.electronjs.org",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
+    "start": "electron-vite preview",
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "postinstall": "electron-builder install-app-deps",
+    "build:win": "npm run build && electron-builder --win --config",
+    "build:mac": "npm run build && electron-builder --mac --config",
+    "build:linux": "npm run build && electron-builder --linux --config"
+  },
+  "dependencies": {
+    "@electron-toolkit/preload": "^2.0.0",
+    "@electron-toolkit/utils": "^1.0.2",
+    "axios": "^1.4.0",
+    "electron-router-dom": "^1.0.5",
+    "electron-updater": "^5.3.0",
+    "formik": "^2.4.2",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.13.0",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@electron/notarize": "^1.2.3",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "electron": "^24.4.1",
+    "electron-builder": "^23.6.0",
+    "electron-vite": "^1.0.23",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "postcss": "^8.4.24",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}
